@@ -1,0 +1,9 @@
+.employee-profile__avatar {
+  background-image: url("../../../images/item-avatar2.jpg");
+  width: 58px;
+  height: 58px;
+  border-radius: 29px;
+  margin-top: 16px;
+  margin-right: 15px;
+  margin-left: 22px;
+}

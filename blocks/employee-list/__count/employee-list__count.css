@@ -1,0 +1,17 @@
+.employee-list__count {
+  margin-left: auto;
+  font-size:  18px;
+  font-weight: 600;
+  color: #A2A2A2;
+  margin-right: 28px;
+}
+
+.employee-list__item_active .employee-list__count {
+  color: #EE144E;
+}
+
+@media screen and (max-width: 1460px) {
+  .employee-list__count {
+    margin-right: 8px;
+  }
+}

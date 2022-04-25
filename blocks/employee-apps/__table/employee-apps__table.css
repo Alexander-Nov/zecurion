@@ -1,0 +1,38 @@
+.employee-apps__table {
+  display: table;
+  text-align: right;
+  table-layout: fixed;
+  width: 100%;
+}
+
+.employee-apps__table td {
+  border-bottom: 1px solid #D1CFD7;
+}
+
+.employee-apps__table tr {
+  font-size: 13px;
+  color: #3E3E3E;
+}
+
+.employee-apps__table td:first-child {
+  text-align: left;
+}
+
+.employee-apps__table th:nth-child(1) {
+  width:  60%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.employee-apps__table th:nth-child(2) {
+  width: 15%;
+}
+
+.employee-apps__table th:nth-child(3) {
+  width: 10%;
+}
+
+.employee-apps__table th:nth-child(4) {
+  width: 15%;
+}

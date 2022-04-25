@@ -1,0 +1,27 @@
+.employee-anomalies__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  gap: 21px;
+  margin-left: 38px;
+  margin-right: 56px;
+  margin-bottom: 73px;
+  justify-items: stretch;
+  align-items: center;
+}
+
+@media screen and (max-width: 1460px) {
+  .employee-anomalies__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .employee-anomalies__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+}

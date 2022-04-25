@@ -1,0 +1,17 @@
+.employee-list {
+  width: 340px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 1460px) {
+  .employee-list {
+    max-width: 280px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .employee-list {
+    display: none;
+  }
+}

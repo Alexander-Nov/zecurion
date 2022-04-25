@@ -1,0 +1,6 @@
+.employee-list__search-block {
+  width: 100%;
+  min-height: 22px;
+  display: flex;
+  align-items: center;
+}

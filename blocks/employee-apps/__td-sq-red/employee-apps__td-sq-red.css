@@ -1,0 +1,6 @@
+.employee-apps__td-sq-red::before {
+  content: url('../../../images/red-sq.jpg');
+  margin-right: 10px;
+  width: 10px;
+  height: 10px;
+}

@@ -1,0 +1,11 @@
+.employee-list__avatar {
+  width: 50ps;
+  height: 50px;
+  border-radius: 25px;
+  margin: 20px 11px 18px 29px;
+}
+
+.employee-list__item_active .employee-list__avatar {
+  width: 57px;
+  height: 57px;
+}

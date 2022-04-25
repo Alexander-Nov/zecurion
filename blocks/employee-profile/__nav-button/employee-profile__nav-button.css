@@ -1,0 +1,26 @@
+.employee-profile__nav-button {
+  text-decoration: none;
+  color: #058DC7;
+  border: 0;
+  background-color: white;
+  font-size: 14px;
+  margin: 17px 20px 41px 0;
+  /* margin-bottom: 41px; */
+  /* align-content: center;
+  justify-content: center; */
+}
+
+.employee-profile__nav-button::before {
+  content: url("../../../images/arrow-left1.png");
+  margin-right: 7px;
+  width: 12px;
+  height: 6px;
+  /* align-content: center;
+  justify-content: center; */
+}
+
+@media screen and (max-width: 1460px) {
+  .employee-profile__nav-button {
+    margin-right: 0;
+  }
+}

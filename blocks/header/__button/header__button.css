@@ -1,0 +1,12 @@
+.header__button {
+  background-image: url("../../../images/button-exit.png");
+  background-size: 15px;
+  width: 15px;
+  height: 15px;
+  border: none;
+  margin-right: 23px;
+}
+
+.header__button:hover {
+  cursor: pointer;
+}

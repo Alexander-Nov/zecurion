@@ -1,0 +1,11 @@
+.employee-list__item {
+  min-height: 88px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background: #E7E6E1;
+}
+
+/* .employee-list__item:nth-of-type(2) {
+  background: #FFFFFF;
+} */

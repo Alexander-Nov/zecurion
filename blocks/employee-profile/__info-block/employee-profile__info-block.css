@@ -1,0 +1,4 @@
+.employee-profile__info-block {
+  display: flex;
+  justify-items: flex-start;
+}

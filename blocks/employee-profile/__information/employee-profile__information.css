@@ -1,0 +1,5 @@
+.employee-profile__information {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+}

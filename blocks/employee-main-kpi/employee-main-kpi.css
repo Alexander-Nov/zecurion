@@ -1,0 +1,6 @@
+.employee-main-kpi {
+  display: flex;
+  flex-direction: column;
+  padding-left: 38px;
+  padding-right: 20px;
+}

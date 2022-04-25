@@ -1,0 +1,8 @@
+.employee-bar {
+  width: 100%;
+  min-height: 48px;
+  background: #F3F2ED;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}

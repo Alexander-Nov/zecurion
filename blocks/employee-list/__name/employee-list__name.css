@@ -1,0 +1,20 @@
+.employee-list__name {
+  font-size: 13px;
+  font-weight: 600;
+  color: #058DC7;
+  opacity: 0.5;
+  margin: 0;
+  padding: 0;
+}
+
+.employee-list__item_active .employee-list__name {
+  opacity: 1;
+}
+
+.employee-list__item_active .employee-list__name::after {
+  content: url("../../../images/item-eye.png");
+  /* margin: 0; */
+  margin-left: 6px;
+  width: 13px;
+  height: 9px;
+}

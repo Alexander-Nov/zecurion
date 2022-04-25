@@ -1,0 +1,12 @@
+.employee-profile__information-block {
+  display: flex;
+}
+
+@media screen and (max-width: 1460px) {
+  .employee-profile__information-block {
+    width: calc(100% - 32px);
+    margin-left: 22px;
+    justify-content: space-between;
+    /* margin-right: 20px; */
+  }
+}

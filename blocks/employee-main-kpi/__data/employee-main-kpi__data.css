@@ -1,0 +1,9 @@
+.employee-main-kpi__data {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 195px;
+  background: #F3F2F2;
+  margin-bottom: 27px;
+}

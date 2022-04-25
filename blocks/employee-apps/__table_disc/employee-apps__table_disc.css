@@ -1,0 +1,28 @@
+.employee-apps__table_disc {
+  text-align: right;
+}
+
+.employee-apps__table_disc td {
+  border-bottom: 1px solid #D1CFD7;
+}
+
+.employee-apps__table_disc tr {
+  font-size: 13px;
+  color: #3E3E3E;
+}
+
+.employee-apps__table_disc th:nth-child(1) {
+  border-bottom: 0;
+}
+
+.employee-apps__table_disc th:nth-child(2) {
+  border-bottom: 0;
+}
+
+.employee-apps__table_disc th:nth-child(3) {
+  border-bottom: 0;
+}
+
+.employee-apps__table_disc th:nth-child(4) {
+  border-bottom: 0;
+}

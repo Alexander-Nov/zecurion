@@ -1,0 +1,12 @@
+.employee-apps__table-head {
+  font-size: 14px;
+}
+
+.employee-apps__table-head th {
+  border-bottom: 1px solid #D1CFD7;
+}
+
+.employee-apps__table-head th:first-child {
+  text-align: left;
+}
+

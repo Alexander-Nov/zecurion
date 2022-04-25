@@ -1,0 +1,7 @@
+.employee-anomalies__grid-item {
+  border: 1px solid #EE144E;
+  min-height: 74px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}

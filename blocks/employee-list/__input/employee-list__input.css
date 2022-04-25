@@ -1,0 +1,14 @@
+.employee-list__input{
+  border: 0;
+  font-size: 13px;
+  color: #999999;
+  display: block;
+  margin: 0;
+}
+
+/* .employee-list__input:active,
+:hover,
+:focus {
+  outline: 0;
+  outline-offset: 0;
+} */

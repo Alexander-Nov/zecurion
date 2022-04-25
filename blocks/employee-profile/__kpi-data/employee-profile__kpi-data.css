@@ -1,0 +1,7 @@
+.employee-profile__kpi-data {
+  font-size: 18px;
+  font-weight: 600;
+  /* position: relative; */
+  display: flex;
+  align-items: flex-start;
+}

@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Novoselov Test Zecurion</title>
+  <link rel="stylesheet" href="pages/index.css">
+</head>
+
+<body>
+  <div class="page">
+    <header class="header">
+      <img class="header__logo" src="./images/logo.png" alt="Логотип ZECURION">
+      <div class="header__profile-block">
+        <div class="header__avatar"></div>
+        <p class="header__name">Имя Фамилия</p>
+        <button class="header__button"></button>
+      </div>
+    </header>
+
+    <main class="main-content">
+      <section class="employee-bar">
+        <p class="employee-bar__title">Сотрудники</p>
+        <p class="employee-bar__name">Виктория Беляева, belyaeva@companyname</p>
+      </section>
+
+      <section class="container">
+        <div class="employee-list">
+          <div class="employee-list__search-block">
+            <div class="employee-list__search-lens"></div>
+            <input class="employee-list__input" placeholder="Быстрый поиск...">
+          </div>
+          <ul class="employee-list__list">
+            <li class="employee-list__item">
+              <img class="employee-list__avatar" src="./images/item-avatar1.jpg" alt="Аватар сотрудника">
+              <div class="employee-list__info">
+                <p class="employee-list__name">Анна Иванова</p>
+                <p class="employee-list__prof">Менеджер, Отдел продаж</p>
+                <div class="employee-list__status">на увольнении</div>
+              </div>
+              <div class="employee-list__count">12</div>
+            </li>
+            <li class="employee-list__item employee-list__item_active">
+              <img class="employee-list__avatar" src="./images/item-avatar2.jpg" alt="Аватар сотрудника">
+              <div class="employee-list__info">
+                <p class="employee-list__name">Виктория Беляева</p>
+                <p class="employee-list__prof">Менеджер, Отдел продаж</p>
+                <div class="employee-list__status">в отпуске</div>
+              </div>
+              <div class="employee-list__count">247</div>
+            </li>
+            <li class="employee-list__item">
+              <img class="employee-list__avatar" src="./images/item-avatar3.jpg" alt="Аватар сотрудника">
+              <div class="employee-list__info">
+                <p class="employee-list__name">Виктор Сурков</p>
+                <p class="employee-list__prof">Менеджер, Отдел продаж</p>
+                <div class="employee-list__status"></div>
+              </div>
+              <div class="employee-list__count">0</div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="employee-profile">
+          <div class="employee-profile__about-line">
+            <div class="employee-profile__info-block">
+              <div class="employee-profile__avatar"></div>
+              <div class="employee-profile__info">
+                <p class="employee-profile__name">Виктория Беляева</p>
+                <p class="employee-profile__prof">Менеджер, Отдел продаж</p>
+              </div>
+            </div>
+
+            <div class="employee-profile__information-block">
+              <div class="employee-profile__information">
+                <div class="employee-profile__last-activity">Последняя активность <span
+                    class="employee-profile__last-activity_span">сегодня в 12:22</span></div>
+                <div class="employee-profile__kpi">
+                  <div class="employee-profile__risk">
+                    <div class="employee-profile__kpi-title">Уровень риска</div>
+                    <div class="employee-profile__kpi-data">
+                      <p class="employee-profile__kpi-data-text">157</p>
+                      <div class="employee-profile__kpi-data-arrow-block">
+                        <div class="employee-profile__kpi-arrow-down"></div>
+                        <p class="employee-profile__kpi-arrow-number">-100%</p>
+                      </div>
+                    </div>
+
+                  </div>
+                  <div class="employee-profile__productivity">
+                    <div class="employee-profile__kpi-title">Продуктивность</div>
+                    <div class="employee-profile__kpi-data">
+                      <p class="employee-profile__kpi-data-text">86%</p>
+                      <div class="employee-profile__kpi-data-arrow-block">
+                        <div class="employee-profile__kpi-arrow-green-up"></div>
+                        <p class="employee-profile__kpi-arrow-number">+3%</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="employee-profile__activity-index">
+                    <div class="employee-profile__kpi-title">Индекс активности</div>
+                    <div class="employee-profile__kpi-data">
+                      <p class="employee-profile__kpi-data-text">2.4%</p>
+                      <div class="employee-profile__kpi-data-arrow-block">
+                        <div class="employee-profile__kpi-arrow-red-up"></div>
+                        <p class="employee-profile__kpi-arrow-number">+14%</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <nav class="employee-profile__nav">
+                <button class="employee-profile__nav-button" type="button">к списку сотрудников</button>
+                <ul class="employee-profile__nav-signs">
+                  <li class="employee-profile__nav-item">
+                    <img src="./images/check-sign.png">
+                  </li>
+                  <li class="employee-profile__nav-item">
+                    <img src="./images/camera-sign.png">
+                  </li>
+                  <li class="employee-profile__nav-item">
+                    <img src="./images/monitor-sign.png">
+                  </li>
+                  <li class="employee-profile__nav-item">
+                    <img src="./images/list-sign.png">
+                  </li>
+                </ul>
+              </nav>
+            </div>
+
+          </div>
+
+          <div class="employee-anomalies">
+            <h2 class="employee-anomalies__title">Аномалии</h2>
+            <div class="employee-anomalies__grid">
+              <div class="employee-anomalies__grid-item">
+                <div class="employee-anomalies__important"></div>
+                <p class="employee-anomalies__grid-paragraph">Использование более аккаунта в соцсетях или месенджерах
+                </p>
+              </div>
+              <div class="employee-anomalies__grid-item">
+                <div class="employee-anomalies__important"></div>
+                <p class="employee-anomalies__grid-paragraph">Первое использование устройства</p>
+              </div>
+              <div class="employee-anomalies__grid-item">
+                <div class="employee-anomalies__important"></div>
+                <p class="employee-anomalies__grid-paragraph">Отсутствие более 40 дней</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="employee-main-kpi">
+            <h2 class="employee-main-kpi__title">Основные показатели</h2>
+            <div class="employee-main-kpi__data">
+              <p class="employee-main-kpi__text">Данные не найдены</p>
+            </div>
+          </div>
+
+          <div class="employee-statistic">
+            <div class="employee-apps">
+              <h3 class="employee-apps__title">Приложения и категории</h3>
+              <table class="employee-apps__table">
+                <thead class="employee-apps__table-head">
+                  <tr>
+                    <th>Категории приложений</th>
+                    <th>время</th>
+                    <th>%</th>
+                    <th>рост</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="employee-apps__td-sq-yellow">Мессенджеры</td>
+                    <td class="employee-apps__td-blue">20:55</td>
+                    <td>18</td>
+                    <td>+2%</td>
+                  </tr>
+                  <tr>
+                    <td class="employee-apps__td-sq-yellow">Браузеры</td>
+                    <td class="employee-apps__td-blue">15:11</td>
+                    <td>12</td>
+                    <td>-3%</td>
+                  </tr>
+                  <tr>
+                    <td class="employee-apps__td-sq-red">Игры</td>
+                    <td class="employee-apps__td-blue">13:11</td>
+                    <td>7</td>
+                    <td>0</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="employee-apps">
+              <h3 class="employee-apps__title">Сайты и категории</h3>
+              <table class="employee-apps__table">
+                <thead class="employee-apps__table-head">
+                  <tr>
+                    <th>Категории сайтов</th>
+                    <th>время</th>
+                    <th>%</th>
+                    <th>рост</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="employee-apps__td-sq-yellow">Поисковики</td>
+                    <td class="employee-apps__td-blue">20:55</td>
+                    <td>18</td>
+                    <td>+2%</td>
+                  </tr>
+                  <tr>
+                    <td class="employee-apps__td-sq-green">Новостные порталы</td>
+                    <td class="employee-apps__td-blue">15:11</td>
+                    <td>12</td>
+                    <td>-3%</td>
+                  </tr>
+                  <tr>
+                    <td class="employee-apps__td-sq-green employee-apps__td-ellipsis">
+                      <span>Сайты с неопределенным наполнением</span>
+                    </td>
+                    <td class="employee-apps__td-blue">13:11</td>
+                    <td>7</td>
+                    <td>0</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="employee-apps">
+              <h3 class="employee-apps__title">Дисциплина</h3>
+              <table class="employee-apps__table_disc">
+                <thead class="employee-apps__table-head">
+                  <tr>
+                    <th>Дата</th>
+                    <th>Приход на работу</th>
+                    <th>Уход с работы</th>
+                    <th>Время на работе</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>29.02</td>
+                    <td>08:46</td>
+                    <td>08:46</td>
+                    <td>09:06</td>
+                  </tr>
+                  <tr>
+                    <td>28.02</td>
+                    <td>08:27</td>
+                    <td>08:27</td>
+                    <td>08:36</td>
+                  </tr>
+                  <tr>
+                    <td>25.02</td>
+                    <td>08:42</td>
+                    <td>08:42</td>
+                    <td>08:36</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+        </div>
+      </section>
+    </main>
+
+  </div>
+</body>
+
+</html>

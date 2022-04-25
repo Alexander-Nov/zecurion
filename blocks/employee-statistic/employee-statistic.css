@@ -1,0 +1,32 @@
+.employee-statistic {
+  display: grid;
+  gap: 63px;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-left: 38px;
+  padding-right: 56px;
+  margin-bottom: 40px;
+}
+
+@media screen and (max-width: 1460px) {
+  .employee-statistic {
+    display: grid;
+    gap: 40px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    /* padding-left: 38px; */
+    /* padding-right: 56px;
+    margin-bottom: 40px; */
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .employee-statistic {
+    display: grid;
+    gap: 40px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    /* padding-left: 38px; */
+    /* padding-right: 56px;
+    margin-bottom: 40px; */
+  }
+}

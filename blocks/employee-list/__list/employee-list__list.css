@@ -1,0 +1,11 @@
+.employee-list__list {
+  width: 100%;
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-items: flex-start;
+  margin: 0;
+  padding: 0;
+}

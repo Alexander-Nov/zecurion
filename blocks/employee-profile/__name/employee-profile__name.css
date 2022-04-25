@@ -1,0 +1,16 @@
+.employee-profile__name {
+  margin: 12px 49px 0 0;
+  padding: 0;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 34px;
+  color: #000000;
+}
+
+.employee-profile__name::after {
+  content: url("../../../images/item-eye.png");
+  margin-left: 3px;
+  width: 15px;
+  height: 10px;
+
+}

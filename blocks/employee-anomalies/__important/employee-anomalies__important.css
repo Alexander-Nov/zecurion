@@ -1,0 +1,9 @@
+.employee-anomalies__important {
+  background-image: url("../../../images/important.png");
+  margin-right: 14px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 15px;
+  height: 14px;
+  margin-left: 11px;
+}

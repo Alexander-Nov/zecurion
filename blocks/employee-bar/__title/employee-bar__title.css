@@ -1,0 +1,14 @@
+.employee-bar__title {
+  margin: 17px 5px 18px 27px;
+  font-size: 12px;
+  font-weight: 400;
+  color: #058DC7;
+}
+
+.employee-bar__title::after {
+  content: url('../../../images/arrow.png');
+  /* background-size: 5px 9px; */
+  width: 5px;
+  height: 9px;
+  margin-left: 5px;
+}

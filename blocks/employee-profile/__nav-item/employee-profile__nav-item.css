@@ -1,0 +1,8 @@
+.employee-profile__nav-item {
+  margin: 0 13px 0 0;
+  width: 21px;
+}
+
+.employee-profile__nav-item:last-of-type {
+  margin-right: 20px;
+}

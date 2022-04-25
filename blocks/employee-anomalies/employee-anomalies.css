@@ -1,0 +1,5 @@
+.employee-anomalies {
+  display: flex;
+  flex-direction: column;
+  margin-top: 33px;
+}

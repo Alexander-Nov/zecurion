@@ -1,0 +1,10 @@
+.employee-list__prof {
+  font-size: 11px;
+  color: #808080;
+  margin: 0;
+  padding: 0;
+}
+
+.employee-list__item_active .employee-list__prof {
+  opacity: 1;
+}

@@ -1,0 +1,8 @@
+.employee-list__search-lens {
+  background-image: url("../../../images/search-lens.png");
+  background-repeat: no-repeat;
+  /* background-size: 12px 12px; */
+  width: 12px;
+  height: 12px;
+  margin: 5px 11px 4px 25px;
+}
